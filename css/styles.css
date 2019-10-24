@@ -43,3 +43,22 @@ header h2 {
 .carousel {
     border: solid #5637DD;
 }
+/*For Version 2*/
+.bg-custom-1 {
+    background-color: rgb(206, 200, 255);
+}
+.bg-custom-2 {
+    background-color: rgb(255, 255, 255);
+}
+.bg-custom-3 {
+    background-color: rgba(48, 70, 197, 1);
+}
+.controllers-custom .carousel-control-prev-icon,
+.controllers-custom .carousel-control-next-icon {
+    width:3.5rem;
+    height:3.5rem;
+}
+.siteType .btn {
+    height:2.4rem;
+    width:5rem;
+}
