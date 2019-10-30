@@ -1,64 +1,68 @@
 body {
-    font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
+
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
-}
+  font-family: "Lobster", cursive; }
+
 h2 {
-    color: #3046C5;
-}
+  color: #3046C5; }
+
 header h2 {
-    color: #CEC8FF;
-}
+  color: #CEC8FF; }
+
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
-}
+  background-image: linear-gradient(#CEC8FF, #fff);
+  padding: 20px 0; }
+
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
-    margin: 0;
-}
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: #fff;
+  margin: 0; }
+
 .navbar {
-    background-color: #901CAD;
-}
+  background-color: #901CAD; }
+
 .breadcrumb {
-    margin-left: -.55rem;
-}
+  margin-left: -.55rem; }
+
 /*For TAB Style*/
 .tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px; }
+
 /*For ACCORDION Style*/
 .pointer {
-    cursor:pointer;
-}
+  cursor: pointer; }
+
 /*For CAROUSEL Style*/
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
+
 .carousel {
-    border: solid #5637DD;
-}
+  border: solid #5637dd; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
 /*For Version 2*/
 .bg-custom-1 {
-    background-color: rgb(206, 200, 255);
-}
+  background-color: #cec8ff; }
+
 .bg-custom-2 {
-    background-color: rgb(255, 255, 255);
-}
+  background-color: white; }
+
 .bg-custom-3 {
-    background-color: rgba(48, 70, 197, 1);
-}
+  background-color: #3046c5; }
+
 .controllers-custom .carousel-control-prev-icon,
 .controllers-custom .carousel-control-next-icon {
-    width:3.5rem;
-    height:3.5rem;
-}
+  width: 3.5rem;
+  height: 3.5rem; }
+
 .siteType .btn {
-    height:2.4rem;
-    width:5rem;
-}
+  height: 2.4rem;
+  width: 5rem; }

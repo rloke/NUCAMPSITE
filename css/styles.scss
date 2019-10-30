@@ -1,0 +1,85 @@
+$color-primary: #3046C5;
+$color-secondary: #5637dd;
+$color-pale: #CEC8FF;
+$color-mid: #901CAD;
+$color-dark: #60106b;
+$color-white:#fff;
+$color-offwhite:#ddd;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$color-background-1: rgb(206, 200, 255);
+$color-background-2: rgb(255, 255, 255);
+$color-background-3: rgba(48, 70, 197, 1);
+$font-family-sans-serif: "Open Sans", sans-serif;
+$font-family-cursive: "Lobster", cursive;
+
+body {
+    font-family: $font-family-sans-serif;
+}
+h1, h2, h3 {
+    font-family: $font-family-cursive;
+}
+h2 {
+    color: $color-primary;
+}
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+.site-footer {
+    background-image: linear-gradient($color-pale, $color-white);
+    padding: 20px 0;
+}
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: $color-white;
+    margin: 0;
+}
+.navbar {
+    background-color: $color-mid;
+}
+.breadcrumb {
+    margin-left: -.55rem;
+}
+/*For TAB Style*/
+.tab-content {
+    border: 1px solid $color-offwhite;
+    border-top: none;
+    padding: 10px;
+}
+/*For ACCORDION Style*/
+.pointer {
+    cursor:pointer;
+}
+/*For CAROUSEL Style*/
+.carousel-caption {
+    background-color: $color-transparent-black;
+}
+.carousel {
+    border: solid $color-secondary;
+}
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*For Version 2*/
+.bg-custom-1 {
+    background-color: $color-background-1;
+}
+.bg-custom-2 {
+    background-color: $color-background-2;
+}
+.bg-custom-3 {
+    background-color: $color-background-3;
+}
+.controllers-custom .carousel-control-prev-icon,
+.controllers-custom .carousel-control-next-icon {
+    width:3.5rem;
+    height:3.5rem;
+}
+.siteType .btn {
+    height:2.4rem;
+    width:5rem;
+}
