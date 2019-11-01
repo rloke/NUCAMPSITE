@@ -5,6 +5,7 @@ $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-white:#fff;
 $color-offwhite:#ddd;
+$color-teal: #17A2B8;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
 $color-background-1: rgb(206, 200, 255);
 $color-background-2: rgb(255, 255, 255);
@@ -63,6 +64,19 @@ header {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+/*Workshop 4 Assignment */
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: $color-white;
+    }
+}
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: $color-white;
+    }
 }
 /*For Version 2*/
 .bg-custom-1 {

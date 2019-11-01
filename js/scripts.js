@@ -8,8 +8,9 @@
         $(".carousel").carousel("cycle");
     });
 });*/
-//Jquery for Play/Pause Button
+
 $(function() {
+    //Jquery for Play/Pause Button
     $(".carousel").carousel( { interval: 2000 } );
     $("#carouselButton").click(function(){
         if ($("i").hasClass("fa-pause")) {
@@ -21,5 +22,13 @@ $(function() {
             $("i").removeClass("fa-play");
             $("i").addClass("fa-pause");
         }   
+    });
+    //Jquery for Reserve Campsite Button
+    $("#reserveButton").click(function(){
+        $('#reserveModal').modal('show');
+    });
+    //Jquery for Login Button
+    $("#loginButton").click(function(){
+        $('#loginModal').modal('show');
     });
 });
